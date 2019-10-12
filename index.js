@@ -19,7 +19,6 @@ describe('updateObjectWithKeyAndValue(object, key, value)', function() {
     })
   })
   
-  var obj={prop:1}
   function updateObjectWithKeyAndValue(object, key, value){
     return object={key:"value"};
   }
