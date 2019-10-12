@@ -20,8 +20,8 @@ describe('updateObjectWithKeyAndValue(object, key, value)', function() {
   })
   
   function updateObjectWithKeyAndValue(object, key, value){
-    object={key:"value"};
-    return object.key="prop2"
+    obj[key]=value;
+    return object 
   }
   
   
