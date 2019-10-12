@@ -10,6 +10,9 @@ var recipes={};
     return object;
   }
   
+  function deleteFromObjectByKey(object, key){
+    return
+  }
   
   function deleteFromObjectByKey(object, key){
     delete object[key];
